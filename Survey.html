@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/Rent a Pet.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="Title" --><title>Rent a Pet: Customer Survey</title><!-- InstanceEndEditable -->
+
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+<script type="text/javascript" src="myscripts.js"></script>
+
+</head>
+	<body onload="preloadImages()">
+		<!-- InstanceBeginEditable name="PageContent" -->
+    <style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+      }
+   </style>
+		
+		<header class="centered"> <a href="" onmouseover="document.getElementById('banner').src='Images/banner.png';"  
+onmouseout="document.getElementById('banner').src='Images/banner.png';"> </a><a href="" onmouseover="document.getElementById('banner').src='Images/banner.png';"  
+onmouseout="document.getElementById('banner').src='Images/banner.png';"><img src="Images/banner.png" alt="Banner" width="522" height="200" id="print"></a>
+      <nav class="centered"> <a href="" onMouseOver="document.getElementById('logo').src='Images/Logo2.png';"  
+onMouseOut="document.getElementById('logo').src='Images/Logo1.png';"> <img src="Images/Logo1.png" alt="Logo" width="243" height="155" id="logo" align="top"></a><br>
+        <h4>Navigation</h4>
+        <a href="home.html"> Home </a> | <a href="AboutUs.html"> About Us </a> | <a href="Tribute.html"> Tributes</a> | <a href="Survey.html"> Survey</a> | <a href="Links.html"> Favorites </a> | </nav>
+    </header>
+    <section class="centered">
+	  <form action="FormToEmail.php" method="post" name="CustomerSurvey" target="new">
+		  
+		  <h1>Rent a Pet | We Value Your Opinion</h1>
+		   <p> We would appreciate your feedback of our services in any way. Whether it is good or bad! Thank you.</p>
+		<fieldset><legend>Customer Survey</legend>
+			<ul>
+			Please provide your contact information for this survey. <br>
+			<li><label><b>Name:</b></label> <input name="customername" type="text" id="customername" placeholder="enter name here" tabindex="1"></li>
+			<li><label><b>Email:</b></label> <input name="customeremail" type="email" id="customeremail" placeholder="enter email here" tabindex="2"></li>
+			<li><label><b>Order ID:</b></label> <input name="order" type="order" id="order" placeholder="enter order id here" tabindex="3"></li>
+			<li><label><b>Phone Number:</b></label> <input name="customerphone" type="tel" id="customerphone" placeholder="enter your phone number here..." tabindex="4"></li>
+			
+		 
+		</ul></fieldset>
+			<fieldset><legend>The Questions</legend>
+			  <p> On a scale from 1-10, how did you enjoy your time with your pet?</p><input name="timescale" type="range" id="timescale" max="10" min="1" tabindex="5">
+				<p>On a scale from 1-10 how likely are you to recommend Rent A Pet to a friend?</p>
+			  <input name="timerecommend" type="range" id="Scale" max="10" min="1" tabindex="6">
+				<p>What other feedback do you have for us?</p>
+				<p><textarea name="opinion" cols="50" rows="4" id="opinion" tabindex="7">enter your comments here.</textarea></p>
+			</fieldset>
+			
+		
+	  <p><input type="submit" name="submit" value="Submit" />
+	    &nbsp;&nbsp;&nbsp;  .  
+      <input type="reset" value="Reset"></p>
+		</form></section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="centered">
+      <p class="center"><a href="#top">Back to Top</a></p>
+      <br>
+      <p class="center"><a href="mailto:10684318@uvu.edu">Contact Us</a></p>
+      <p class="center">This website has been created solely for educational purposes</p>
+    </footer>
+    <!-- InstanceEndEditable -->
+</body><!-- InstanceEnd --></html>

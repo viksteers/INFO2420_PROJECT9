@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="Title" --><title>Home Site</title><!-- TemplateEndEditable -->
+
+<link href="../mystyles.css" rel="stylesheet" type="text/css">
+<link href="../print.css" rel="stylesheet" type="text/css" media="print">
+<script type="text/javascript" src="../myscripts.js"></script>
+
+</head>
+	<body onload="preloadImages()">
+		<!-- TemplateBeginEditable name="PageContent" -->
+    <header class="centered"> <a href="" onmouseover="document.getElementById('banner').src='Images/banner.png';"  
+onmouseout="document.getElementById('banner').src='Images/banner.png';"> </a><a href="" onmouseover="document.getElementById('banner').src='Images/banner.png';"  
+onmouseout="document.getElementById('banner').src='Images/banner.png';"><img src="../Images/banner.png" alt="Banner" width="522" height="200" id="print"></a>
+      <nav class="centered"> <a href="" onMouseOver="document.getElementById('logo').src='Images/Logo2.png';"  
+onMouseOut="document.getElementById('logo').src='Images/Logo1.png';"> <img src="../Images/Logo1.png" alt="Logo" width="243" height="155" id="logo" align="top"></a><br>
+        <h4>Navigation</h4>
+        <a href="#"> Home </a> | <a href="#"> About Us </a> | <a href="#"> Tributes</a> | <a href="#"> Survey</a> | <a href="#"> Favorites </a> | </nav>
+    </header>
+    <section class="centered">
+      <h1>Welcome to Rent A Pet! </h1>
+      If you love to interact with pets like we do, you should enjoy looking around this site.  Take a look at our Pet Profiles and take the opportunity to complete our survey.</section>
+    <main class="centered">
+      <p class="instructions"></p>
+      <br>
+      <br>
+      <div id="thumbs"> <img src="../Images/Thumbnails/Image1Sm.jpg" alt="DogandCat" 
+onmouseover="swapImage(0);" /> <img src="../Images/Thumbnails/Image2Sm.jpg" alt="Cat" 
+onmouseover="swapImage(1);" /> <img src="../Images/Thumbnails/Image3Sm.jpg" alt="ChildrenDogs" 
+onmouseover="swapImage(2);" /> <img src="../Images/Thumbnails/Image4Sm.jpg" alt="Dogs"  
+onmouseover="swapImage(3);" /> <br />
+      </div>
+      <div id="image"> <img id="theImage" src="../Images/FullSize/Image1Lg.jpg" alt="DogandCat" />
+        <h3 id="bottomText">Dog and Cat</h3>
+      </div>
+      <a href="#"><img src="../Images/Thumbnails/Pig1Sm.jpg" class="thumbnailleft" width  = "150"  height=  "100" alt="Pig"/></a>
+      <p class="tribute"></p>
+      <p>My business requires me to travel quite a bit.  So it would be hard for me to own a pet of my own.  I would have to constantly find someone to pet sit, or I would have to pay for boarding the pet.  
+        I also like to surprise and shock my friends with my unusual pets. Rent A Pet is a perfect solution for my lifestyle...<br/>
+        <a href="../Tributes.html"> Read More...</a></p>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="centered">
+      <p class="center"><a href="#nav">Back to Top</a></p>
+      <br>
+      <p class="center"><a href="mailto:10684318@uvu.edu">Contact Us</a></p>
+      <p class="center">This website has been created solely for educational purposes</p>
+    </footer>
+    <!-- TemplateEndEditable -->
+</body></html>

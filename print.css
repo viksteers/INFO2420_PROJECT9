@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+a:link{                                                                                                                                                                                                                                                                                                                                                                                                                     
+	color: #D4B16A;
+	}
+a:hover{
+	color:#4F628E;
+	}
+a:visited{
+	color:#162955;
+	}
+body{   
+	font-family: Cabin, Helvetica, sans-serif;
+	background-color: white;
+	color: black;
+	
+	}
+h1{
+	color: #061539;
+}
+h2{
+	color: #FFE3AA;
+}
+h3{
+	color: #FFE3AA;
+}
+h4{
+	color: #061539;
+}
+.thumbnailleft{      
+	float: left;padding-right: 10px;
+	}
+.thumbnailright {
+	float: right;padding-left: 10px;
+	}
+a:link{                                                           
+	color: #D4B16A;
+	}
+a:hover{
+	color:#4F628E;
+	}
+a:visited{
+	color:#162955;
+	}
+
+
+.centered{
+	text-align: center;
+	margin: 0 auto;
+	width: 650px;
+}
+table, th, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+	border-spacing: 4px;
+	padding: 4px;
+}
+
+.category{
+	background-color: #669999;
+	width: 15%;
+}           
+
+th.animal{
+	background-color: #AA8439;
+	width: 15%;
+}
+
+td.prices{
+	background-color: #D4B16A;
+	width: 25%;
+}
+ 
+caption{
+	color: #0D4D4D;
+	font-family: Cabin, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+}	
+main{
+	background-color: #4F628E;
+	width: 100%;
+}
+header{
+	background-color: #4F628E;
+	width: 100%;
+}
+section{
+	background-color: #AA8439;
+	width: 100%;
+}
+footer{
+	display: none;
+}
+nav{
+	display: none;
+}
+article{
+	width: 95%;
+}
